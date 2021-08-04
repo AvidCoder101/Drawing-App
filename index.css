@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+
+
+.drawing-color button {
+    height: 30px;
+    width: 30px;
+    border: transparent;
+    opacity: 0.9;
+}
+
+.drawing-color {
+    position: absolute;
+    margin-top: 10px;
+}
+
+button#red {
+    background: red;
+    border-radius: 60px;
+}
+
+button#green{
+    background: green;
+    border-radius: 60px;
+}
+
+button#blue {
+    background: blue;
+    border-radius: 60px;
+}
+
+button#yellow {
+    background: yellow;
+    border-radius: 60px;
+}
+
+button#pink {
+    background: pink;
+    border-radius: 60px;
+}
+
+button#black {
+    background: black;
+    border-radius: 60px;
+}
+
+.drawing-color button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+button#clear {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-right: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button#clear:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "X";
+    line-height: 21px;
+}
