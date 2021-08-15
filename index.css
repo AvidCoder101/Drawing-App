@@ -48,11 +48,6 @@ button#black {
     border-radius: 60px;
 }
 
-button#purple {
-    background: purple;
-    border-radius: 60px;
-}
-
 .drawing-color button:hover {
     cursor: pointer;
     opacity: 1;
