@@ -6,7 +6,6 @@ var blue = document.querySelector("#blue");
 var yellow = document.querySelector("#yellow");
 var pink = document.querySelector("#pink");
 var black = document.querySelector("#black");
-var purple = document.querySelector('#purple');
 
 var ctx = canvas.getContext("2d");
 var drawing = false;
@@ -40,11 +39,6 @@ pink.addEventListener("click", () => {
 
 black.addEventListener("click", () => {
     ctx.strokeStyle = "black";
-    ctx.beginPath();
-})
-
-purple.addEventListener("click", () => {
-    ctx.strokeStyle = "purple";
     ctx.beginPath();
 })
 
